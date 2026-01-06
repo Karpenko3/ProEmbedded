@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"path": "../esp32_try"
+		},
+		{
+			"name": "lsn19_3",
+			"path": "."
+		}
+	],
+	"settings": {}
+}
