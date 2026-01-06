@@ -11,9 +11,7 @@ void setup() {
 }
 
 void loop() {
-  Serial.println (analogRead (potenciometr_pin));
   int potValue = analogRead(potenciometr_pin);
-  
   // Перетворюємо 0-4095 у затримку  (від 1000мс до 50мс)
   // Чим більше значення potValue, тим менша затримка (частіше блимання)
   int interval = map(potValue, 0, 4095, 1000, 50);
@@ -28,3 +26,8 @@ void loop() {
     digitalWrite(led_pin, ledState);
   }
 }
+
+// next
+
+
+
