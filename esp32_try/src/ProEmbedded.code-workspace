@@ -1,0 +1,20 @@
+{
+	"folders": [
+		{
+			"path": "../.."
+		},
+		{
+			"name": "esp32_try",
+			"path": ".."
+		},
+		{
+			"name": "esp32_try2",
+			"path": "../../esp32_try2"
+		},
+		{
+			"name": "lesson19_2",
+			"path": "../../lesson19_2"
+		}
+	],
+	"settings": {}
+}

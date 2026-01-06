@@ -1,6 +1,6 @@
 #include <Arduino.h>
 int led_pin = 2;
-unsigned long prevAction; // повертає значення з моменту включення плати
+unsigned long prevAction; 
 int led_state = 0; // 
 
 void setup() {
@@ -19,8 +19,10 @@ void loop() {
 
   digitalWrite(led_pin, led_state);
   prevAction = millis();
+
 }
 
 }
+
 
 
